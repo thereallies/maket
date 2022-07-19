@@ -1,0 +1,66 @@
+body {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    height: 84px;
+    background-color: #007765;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+   margin: 0 55px;
+}
+
+.tools {
+    display: flex;
+    font-size: 24px;
+    color: #FFFFFF;
+    margin: 0 50px;
+}
+
+.tools-item {
+    text-decoration: none;
+    color: white;
+}
+
+.tools-item:not(.last)::after {
+    content: '|';
+    margin: 0 15px;
+}
+
+.info-container {
+    background: center url(images/image.png) repeat;
+    height: 400px;
+}
+
+.info-title {
+    color: white;
+    font-size: 84px;
+    font-weight: 100;
+    text-align: center;
+    height: 400px;
+    line-height: 400px;
+}
+
+.problem-text {
+    position: absolute;
+    width: 1107px;
+    height: 75px;
+    left: 451px;
+    top: 535px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+
+
+    text-align: center;
+    display: flex;
+    color: #007765;
+}
